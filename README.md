@@ -16,11 +16,12 @@ Projeto desenvolvido para a disciplina de Arquitetura e Organização de Computa
 1. Baixe o simulador MARS.
 2. Abra o arquivo `trabalhoaoc.asm` no MARS.
 3. Certifique-se de que a opção "Assemble all files in directory" esteja marcada nas configurações.
-4. Abra o `Bitmap Display` (Tools -> Bitmap Display) e configure:
+4. Altere tanto o endereço em nome_arquivo: .asciiz "/Users/guilhermeferro/Desktop/TrabalhoAOC/dados.bin" no código `calculo.asm`, quanto o endereço nome_arquivo_add: .asciiz "/Users/guilhermeferro/Desktop/TrabalhoAOC/dados.bin" no código `adiciona.asm`, para o diretório equivalente ao seu computador, porque somente .asciiz "dados.bin", por algum motivo, não funciona.
+5. Abra o `Bitmap Display` (Tools -> Bitmap Display) e configure:
    - Unit Width/Height: 8
    - Display Width: 1024 / Height: 512
    - Base Address for Display: 0x10040000
-5. Conecte o Bitmap e execute o código.
+6. Conecte o Bitmap e execute o código.
 
 # Integrantes
 - Guilherme Miguel Spyrides Leite Ferro
